@@ -33,9 +33,9 @@ screen -S bnb wget -O - "https://tf-dex-prod-public-snapshot-site3.s3-accelerate
 sudo ufw default deny incoming<br>
 sudo ufw default allow outgoing<br>
 sudo ufw allow 30303<br>
-sudo ufw allow 262<br>
-sudo ufw allow from <your ip server> to any port 8545<br>
-sudo ufw allow from <your server read> to any port 8545<br>
+sudo ufw allow 22<br>
+sudo ufw allow from "your ip server" to any port 8545<br>
+sudo ufw allow from "your server read" to any port 8545<br>
 sudo ufw enable<br>
 
 <br><br>
